@@ -12,8 +12,8 @@ public class Card {
     private String description;
 
     public Card(){
-        setName("None");
-        setDescription("Nothing");
+        name = "None";
+        description = "Just +1 to growth";
     }
 
     public Card(String name,String description){
